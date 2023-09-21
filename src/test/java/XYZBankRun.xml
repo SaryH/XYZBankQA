@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <!--<test name="XYZ Bank: Login QA">
+        <groups>
+            <run>
+                <include name="login"/>
+                <include name="deposit"/>
+                <include name="withdraw"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="XYZBankQA" />
+        </classes>
+    </test>-->
+    <test name="XYZ Bank: Login QA">
+        <groups>
+            <run>
+                <include name="login"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="XYZBankQA" />
+        </classes>
+    </test>
+    <test name="XYZ Bank: Deposit QA">
+        <groups>
+            <run>
+                <include name="deposit"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="XYZBankQA" />
+        </classes>
+    </test>
+    <test name="XYZ Bank: Withdraw QA">
+        <groups>
+            <run>
+                <include name="withdraw"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="XYZBankQA" />
+        </classes>
+    </test>
+    <test name="XYZ Bank: Customers QA">
+        <groups>
+            <run>
+                <include name="customers"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="XYZBankQA" />
+        </classes>
+    </test>
+    <test name="XYZ Bank: Accounts QA">
+        <groups>
+            <run>
+                <include name="accounts"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="XYZBankQA" />
+        </classes>
+    </test>
+    <test name="XYZ Bank: Customer Control QA">
+        <groups>
+            <run>
+                <include name="customer-control"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="XYZBankQA" />
+        </classes>
+    </test>
+
+</suite>
